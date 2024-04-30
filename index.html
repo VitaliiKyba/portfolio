@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/static/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/static/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/static/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./src/static/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./src/static/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <script type="module" src="./main.js"></script> -->
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div id="bg-img"></div>
+    <main class="bg-dark">
+      <header class="header">
+        <div class="container container-header">
+          <div class="ava">
+            <div class="circule" data-tooltip="Open to work"></div>
+          </div>
+
+          <div class="title">
+            <h2>Vitalii Kyba</h2>
+          </div>
+        </div>
+      </header>
+      <section class="main-section">
+        <!-- <div class="container hr-container">
+          <hr />
+        </div> -->
+        <div class="container main-container">
+          <div class="wrapper">
+            <div>
+              <h2>Contacts:</h2>
+              <ul class="details">
+                <li>
+                  <a href="mailto:vitaliikyba@yahoo.com" target="_blank"
+                    >email: vitaliikyba@yahoo.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+380508385414" target="_blank"
+                    >phone: +380(50)838-54-14</a
+                  >
+                </li>
+                <li>
+                  <a href="https://t.me/vitalii_kyba" target="_blank"
+                    >telegram: @vitalii_kyba</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://drive.google.com/file/d/1ClkrnKgdT7J2T4TuZBBoYPkU6mceDio9/view?usp=sharing"
+                    target="_blank"
+                    >resume</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/vitalii-kyba"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >linkedIn</a
+                  >
+                  <!-- <img
+                      src="./src/images/linkedin.webp"
+                      class="in"
+                      alt="LinkedIn"
+                  /> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="wrap-article">
+            <div>
+              <h2>About myself</h2>
+              <p class="about">
+                I am highly motivated to achieve goals in the field of web
+                development. My experience in web application development allows
+                me to confidently and efficiently perform various tasks in this
+                area. Additionally, I possess the ability to work
+                collaboratively in a team, solving tasks together and achieving
+                common goals. My goal is not only to find a job but also to
+                become a key player in the field of web development, advancing
+                my career position in the long term. ▪ Responsive layout from
+                design mockup; ▪ Interaction with various APIs; ▪ Working with
+                state manager; ▪ Server interaction, request sending, data
+                retrieval, and parsing;
+              </p>
+            </div>
+            <div>
+              <h2>Skills:</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SCSS</li>
+                <li>JS/TS</li>
+                <li>Angular</li>
+                <li>React</li>
+                <li>Git</li>
+                <li>Design patterns</li>
+                <li>Webpack</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+            <div>
+              <h2>Sample code:</h2>
+              <pre>
+                <code class="language-javascript bg-transparent">
+                  const array = ['12', '56', '32', '69'];
+
+                  const toObject = (array) => {
+                    const object = {};
+                    array.reduce((prew, next, i, array) => {
+                      object[i] = next;
+                    }, array[0]);
+                    return object;
+                  };
+                  
+                  console.log(toObject(array));
+                  //{0: '12', 1: '56', 2: '32', 3: '69'}
+                </code>
+              </pre>
+            </div>
+            <div>
+              <h2>Courses:</h2>
+              <ul>
+                <li>Clean Code and Design Patterns, Robot_dreams</li>
+                <li>Basics of web development, EdEra</li>
+                <li>WEB UI Developer, Prometheus</li>
+                <li>MongoDB Basics, university.mongodb</li>
+                <li>FreeCodeCamp, basic Javascript, React</li>
+                <li>RS School, JS Developer</li>
+              </ul>
+            </div>
+            <div>
+              <h2>Education:</h2>
+              <h3>Specialist, Sumy State University, Sumy</h3>
+              <p class="year">​2011 - 2017</p>
+              <p>
+                Program Subject Area "Electrical Energetics, Electrical
+                Engineering and Electromechanics"
+              </p>
+            </div>
+            <div>
+              <h2>English: A2-B1</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="myProjects">
+        <div class="container header-myProjects-container">
+          <h2>My projects:</h2>
+          <p>
+            My experience and achievements as a Front-end Developer: I learned
+            to markup pages on my own, using HTML, CSS, SCSS, JavaScript, Figma
+            technologies. Dynamically generate, modify, publish and insert
+            components in the DOM, as well as manage variables in CSS using
+            JavaScript. I have experience with other APIs, such as weather,
+            news, audio, video, incl. youtube... I used Git, Webpack. There is
+            also some experience in writing SPA for vanilla JavaScript +
+            TypeScript such projects. I also recently took a second React course
+            on freecodecamp (to refresh my knowledge). There is also experience
+            writing RestFull API using node.js, express.js, mongoDB, JWT.<br />
+          </p>
+        </div>
+        <div class="container content-myProjects-container">
+          <p>
+            <span class="yelloy">- Museum: </span>
+            <span
+              >Responsive layout of HTML, SCSS and JS using Webpack.<a
+                target="blank"
+                href="https://rolling-scopes-school.github.io/kybavitalii-JSFE2021Q3/museum-adaptive"
+              >
+                &#8594; go to museum</a
+              ></span
+            >
+          </p>
+          <iframe
+            class="iframes museum-frame"
+            title="Museum de louvre"
+            name="targetframe"
+          >
+          </iframe>
+          <p>
+            <span class="yelloy">- Tetris: </span>
+            <span
+              >Funny game Tetris on vanilla JS.<a
+                target="blank"
+                href="https://kybavitalii.github.io/tetris/"
+              >
+                &#8594; go to tetris</a
+              ></span
+            >
+          </p>
+          <iframe
+            class="iframes portfolio-frame"
+            title="Tetris"
+            name="targetframe"
+          >
+          </iframe>
+          <p>
+            <span class="yelloy">- Currency exchange: </span>
+            A simple currency calculator written on React. The current exchange
+            rate comes from the API of the National Bank of Ukraine.<span
+              ><a
+                target="blank"
+                href="https://kybavitalii.github.io/currency-converter/"
+              >
+                &#8594; go to Currency exchange</a
+              ></span
+            >
+          </p>
+          <iframe
+            class="iframes exchange-frame"
+            title="Currency exchange"
+            name="targetframe"
+          >
+          </iframe>
+
+          <!-- <p class="bg-dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            expedita, ipsam quisquam dolores molestias labore sed accusantium
+            quae neque ducimus sunt aspernatur eius sapiente ex incidunt ea
+            voluptatem sequi officia.<span
+              ><a
+                target="blank"
+                href="https://kybavitalii.github.io/online-counter/"
+              >
+                &#8594; go to counter</a
+              ></span
+            >
+          </p>
+          <iframe
+            class="iframes counter-frame"
+            title="Online incomes counter"
+            name="targetframe"
+          >
+          </iframe> -->
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="github">
+          <a href="https://github.com/kybavitalii/">
+            <img
+              class="github-img"
+              src="./src/images/github.webp"
+              alt="Github"
+            />
+          </a>
+        </div>
+        <div class="madein">
+          <h4>2021</h4>
+        </div>
+        <div class="logo">
+          <a href="https://rs.school/js/"> </a>
+        </div>
+      </div>
+    </footer>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/rainbow.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/languages/go.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
